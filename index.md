@@ -1,9 +1,11 @@
 # Advent of Code 2020
 
+<details><summary>View</summary>
 ## Day 1
 
+</details>
 
-
+<details><summary>View</summary>
 ## Day 2
 
 ### Part 1
@@ -159,8 +161,9 @@ if __name__ == "__main__":
 {% endhighlight %}
 </details>
 
+</details>
 
-
+<details><summary>View</summary>
 ## Day 3
 
 ### Part 1
@@ -336,8 +339,9 @@ if __name__ == "__main__":
 {% endhighlight %}
 </details>
 
+</details>
 
-
+<details><summary>View</summary>
 ## Day 4
 
 ### Part 1
@@ -515,8 +519,9 @@ if __name__ == "__main__":
 {% endhighlight %}
 </details>
 
+</details>
 
-
+<details><summary>View</summary>
 ## Day 5
 
 ### Part 1
@@ -665,4 +670,4 @@ if __name__ == "__main__":
 {% endhighlight %}
 </details>
 
-
+</details>
