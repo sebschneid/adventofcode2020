@@ -4,13 +4,19 @@
 
 ## Day {{day}}
 
-<details><summary>View</summary>
+<details>
+<summary>
+View
+</summary>
 
 <% for part, content in day_contents.items() %>
 
 ### {{part}}
 
-<details><summary>Code</summary>
+<details>
+<summary>
+Code
+</summary>
 
 ```python
 {{ content }}
