@@ -1,5 +1,20 @@
-## Advent of Code 2020
+# Day 1
 
-### Day 1
+## Solution
 
-### Day 2
+### Part 1
+
+## collapsible markdown?
+
+Python Code
+
+<details><summary>Code</summary>
+<p>
+
+{% highlight python %}
+def sum(x, y):
+    return x + y
+{% endhighlight %}
+
+</p>
+</details>
