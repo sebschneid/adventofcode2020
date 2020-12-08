@@ -9,6 +9,10 @@
 
 </details>
 
+</br>
+<hr>
+</br>
+
 
 ## Day 2
 
@@ -177,6 +181,10 @@ if __name__ == "__main__":
 </details>
 
 </details>
+
+</br>
+<hr>
+</br>
 
 
 ## Day 3
@@ -366,6 +374,10 @@ if __name__ == "__main__":
 </details>
 
 </details>
+
+</br>
+<hr>
+</br>
 
 
 ## Day 4
@@ -558,6 +570,10 @@ if __name__ == "__main__":
 
 </details>
 
+</br>
+<hr>
+</br>
+
 
 ## Day 5
 
@@ -719,3 +735,7 @@ if __name__ == "__main__":
 </details>
 
 </details>
+
+</br>
+<hr>
+</br>

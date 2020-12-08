@@ -19,4 +19,8 @@
 </details>
 <% endfor %>
 </details>
+
+</br>
+<hr>
+</br>
 <% endfor %>
