@@ -17,11 +17,11 @@ contents = {}
 
 for solution_dir in sorted(solutions_path.iterdir()):
     day = int(solution_dir.stem)
-    python_files = solution_dir.glob("solve_*.py")
+    python_files = [file for file in solution_dir.glob("*.py")]
     contents[day] = {}
     for i, python_file in enumerate(python_files):
         content = open(python_file, "r").read()
-        contents[day][f"Part {i+1}"] = content
+        contents[day][python_file.name] = content
 
 output = template.render(contents=contents)
 with open("index.md", "w") as file:

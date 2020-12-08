@@ -4,9 +4,9 @@
 
 ## Day {{day}}
 
-<% for part, content in day_contents.items() %>
+<% for file, content in day_contents.items() %>
 
-### {{part}}
+### {{file}}
 
 <details><summary>Code</summary>
 
