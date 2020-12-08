@@ -1,16 +1,26 @@
 # Advent of Code 2020
 
+
+
 ## Day 1
+
 <details><summary>View</summary>
+
 
 </details>
 
+
 ## Day 2
+
 <details><summary>View</summary>
 
+
+
 ### Part 1
+
 <details><summary>Code</summary>
-{% highlight python %}
+
+```python
 import itertools
 import pathlib
 import re
@@ -80,12 +90,16 @@ if __name__ == "__main__":
         puzzle_input = parse_input(open_file.readlines())
     solution = solve(puzzle_input)
     print(f"The solution to this puzzle is [bold green]{solution}")
-{% endhighlight %}
+```
+
 </details>
 
+
 ### Part 2
+
 <details><summary>Code</summary>
-{% highlight python %}
+
+```python
 import itertools
 import pathlib
 import re
@@ -158,17 +172,24 @@ if __name__ == "__main__":
         puzzle_input = parse_input(open_file.readlines())
     solution = solve(puzzle_input)
     print(f"The solution to this puzzle is [bold green]{solution}")
-{% endhighlight %}
+```
+
 </details>
 
 </details>
+
 
 ## Day 3
+
 <details><summary>View</summary>
 
+
+
 ### Part 1
+
 <details><summary>Code</summary>
-{% highlight python %}
+
+```python
 import math
 import pathlib
 import sys
@@ -241,12 +262,16 @@ if __name__ == "__main__":
         "following a slope of right 3 and down 1."
     )
 
-{% endhighlight %}
+```
+
 </details>
 
+
 ### Part 2
+
 <details><summary>Code</summary>
-{% highlight python %}
+
+```python
 import math
 import pathlib
 import sys
@@ -336,17 +361,24 @@ if __name__ == "__main__":
         f"different slopes, results in [bold green]{solution}[/bold green]."
     )
 
-{% endhighlight %}
+```
+
 </details>
 
 </details>
+
 
 ## Day 4
+
 <details><summary>View</summary>
 
+
+
 ### Part 1
+
 <details><summary>Code</summary>
-{% highlight python %}
+
+```python
 import logging
 import pathlib
 import re
@@ -416,12 +448,16 @@ def cli(input_filename, debug):
 if __name__ == "__main__":
     cli()
 
-{% endhighlight %}
+```
+
 </details>
 
+
 ### Part 2
+
 <details><summary>Code</summary>
-{% highlight python %}
+
+```python
 import logging
 import pathlib
 import re
@@ -516,17 +552,24 @@ def cli(input_filename, debug):
 if __name__ == "__main__":
     cli()
 
-{% endhighlight %}
+```
+
 </details>
 
 </details>
+
 
 ## Day 5
+
 <details><summary>View</summary>
 
+
+
 ### Part 1
+
 <details><summary>Code</summary>
-{% highlight python %}
+
+```python
 import logging
 import pathlib
 import re
@@ -594,12 +637,16 @@ def cli(input_filename, debug):
 if __name__ == "__main__":
     cli()
 
-{% endhighlight %}
+```
+
 </details>
 
+
 ### Part 2
+
 <details><summary>Code</summary>
-{% highlight python %}
+
+```python
 import logging
 import pathlib
 import re
@@ -667,7 +714,8 @@ def cli(input_filename, debug):
 if __name__ == "__main__":
     cli()
 
-{% endhighlight %}
+```
+
 </details>
 
 </details>
