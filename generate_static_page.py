@@ -17,7 +17,7 @@ contents = {}
 
 for solution_dir in sorted(solutions_path.iterdir()):
     day = int(solution_dir.stem)
-    python_files = [file for file in solution_dir.glob("*.py")]
+    python_files = sorted([file for file in solution_dir.glob("*.py")])
     contents[day] = {}
     for i, python_file in enumerate(python_files):
         content = open(python_file, "r").read()

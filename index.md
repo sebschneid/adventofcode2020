@@ -104,27 +104,6 @@ if __name__ == "__main__":
 
 
 
-### test_01.py
-
-<details><summary>Code</summary>
-
-```python
-from solve_01 import parse_input, solve
-
-TEST_INPUT = ["1-3 a: abcde\n", "1-3 b: cdefg\n", "2-9 c: ccccccccc\n"]
-
-
-def test_solution():
-    result = solve(parse_input(TEST_INPUT))
-    assert 2 == result
-
-```
-
-</details>
-</br>
-
-
-
 ### solve_01.py
 
 <details><summary>Code</summary>
@@ -290,6 +269,27 @@ if __name__ == "__main__":
 
 
 
+### test_01.py
+
+<details><summary>Code</summary>
+
+```python
+from solve_01 import parse_input, solve
+
+TEST_INPUT = ["1-3 a: abcde\n", "1-3 b: cdefg\n", "2-9 c: ccccccccc\n"]
+
+
+def test_solution():
+    result = solve(parse_input(TEST_INPUT))
+    assert 2 == result
+
+```
+
+</details>
+</br>
+
+
+
 ### test_02.py
 
 <details><summary>Code</summary>
@@ -319,42 +319,6 @@ def test_solution():
 
 
 ## Day 3
-
-
-
-### test_01.py
-
-<details><summary>Code</summary>
-
-```python
-from solve_01 import parse_input, solve
-
-TEST_INPUT = (
-    """
-    ..##.......
-    #...#...#..
-    .#....#..#.
-    ..#.#...#.#
-    .#...##..#.
-    ..#.##.....
-    .#.#.#....#
-    .#........#
-    #.##...#...
-    #...##....#
-    .#..#...#.#
-    """
-).split()
-
-
-def test_solution():
-    print(TEST_INPUT)
-    result = solve(parse_input(TEST_INPUT))
-    assert 7 == result
-
-```
-
-</details>
-</br>
 
 
 
@@ -543,6 +507,42 @@ if __name__ == "__main__":
 
 
 
+### test_01.py
+
+<details><summary>Code</summary>
+
+```python
+from solve_01 import parse_input, solve
+
+TEST_INPUT = (
+    """
+    ..##.......
+    #...#...#..
+    .#....#..#.
+    ..#.#...#.#
+    .#...##..#.
+    ..#.##.....
+    .#.#.#....#
+    .#........#
+    #.##...#...
+    #...##....#
+    .#..#...#.#
+    """
+).split()
+
+
+def test_solution():
+    print(TEST_INPUT)
+    result = solve(parse_input(TEST_INPUT))
+    assert 7 == result
+
+```
+
+</details>
+</br>
+
+
+
 ### test_02.py
 
 <details><summary>Code</summary>
@@ -587,43 +587,6 @@ def test_solution():
 
 
 ## Day 4
-
-
-
-### test_01.py
-
-<details><summary>Code</summary>
-
-```python
-from solve_01 import parse_input, solve
-
-TEST_INPUT = (
-    """
-    ecl:gry pid:860033327 eyr:2020 hcl:#fffffd
-    byr:1937 iyr:2017 cid:147 hgt:183cm
-
-    iyr:2013 ecl:amb cid:350 eyr:2023 pid:028048884
-    hcl:#cfa07d byr:1929
-
-    hcl:#ae17e1 iyr:2013
-    eyr:2024
-    ecl:brn pid:760753108 byr:1931
-    hgt:179cm
-
-    hcl:#cfa07d eyr:2025 pid:166559648
-    iyr:2011 ecl:brn hgt:59in
-    """
-).split("\n")
-
-
-def test_solution():
-    result = solve(parse_input(TEST_INPUT))
-    assert 2 == result
-
-```
-
-</details>
-</br>
 
 
 
@@ -814,6 +777,43 @@ if __name__ == "__main__":
 
 
 
+### test_01.py
+
+<details><summary>Code</summary>
+
+```python
+from solve_01 import parse_input, solve
+
+TEST_INPUT = (
+    """
+    ecl:gry pid:860033327 eyr:2020 hcl:#fffffd
+    byr:1937 iyr:2017 cid:147 hgt:183cm
+
+    iyr:2013 ecl:amb cid:350 eyr:2023 pid:028048884
+    hcl:#cfa07d byr:1929
+
+    hcl:#ae17e1 iyr:2013
+    eyr:2024
+    ecl:brn pid:760753108 byr:1931
+    hgt:179cm
+
+    hcl:#cfa07d eyr:2025 pid:166559648
+    iyr:2011 ecl:brn hgt:59in
+    """
+).split("\n")
+
+
+def test_solution():
+    result = solve(parse_input(TEST_INPUT))
+    assert 2 == result
+
+```
+
+</details>
+</br>
+
+
+
 ### test_02.py
 
 <details><summary>Code</summary>
@@ -872,46 +872,6 @@ def test_solution():
 
 
 ## Day 5
-
-
-
-### test_01.py
-
-<details><summary>Code</summary>
-
-```python
-from solve_01 import parse_input, solve
-
-TEST_INPUT = (
-    """
-    BFFFBBFRRR
-    FFFBBBFRRR
-    BBFFBBFRLL
-    """
-).split()
-
-
-def test_solution():
-    boarding_passes = parse_input(TEST_INPUT)
-    assert boarding_passes[0].row == 70
-    assert boarding_passes[0].col == 7
-    assert boarding_passes[0].id == 567
-
-    assert boarding_passes[1].row == 14
-    assert boarding_passes[1].col == 7
-    assert boarding_passes[1].id == 119
-
-    assert boarding_passes[2].row == 102
-    assert boarding_passes[2].col == 4
-    assert boarding_passes[2].id == 820
-
-    result = solve(parse_input(TEST_INPUT))
-    assert 820 == result
-
-```
-
-</details>
-</br>
 
 
 
@@ -1073,17 +1033,6 @@ if __name__ == "__main__":
 
 
 
-</details>
-
-</br>
-<hr>
-</br>
-
-
-## Day 6
-
-
-
 ### test_01.py
 
 <details><summary>Code</summary>
@@ -1093,34 +1042,45 @@ from solve_01 import parse_input, solve
 
 TEST_INPUT = (
     """
-abc
-
-a
-b
-c
-
-ab
-ac
-
-a
-a
-a
-a
-
-b
-"""
-).split("\n")
+    BFFFBBFRRR
+    FFFBBBFRRR
+    BBFFBBFRLL
+    """
+).split()
 
 
 def test_solution():
-    print(TEST_INPUT)
+    boarding_passes = parse_input(TEST_INPUT)
+    assert boarding_passes[0].row == 70
+    assert boarding_passes[0].col == 7
+    assert boarding_passes[0].id == 567
+
+    assert boarding_passes[1].row == 14
+    assert boarding_passes[1].col == 7
+    assert boarding_passes[1].id == 119
+
+    assert boarding_passes[2].row == 102
+    assert boarding_passes[2].col == 4
+    assert boarding_passes[2].id == 820
+
     result = solve(parse_input(TEST_INPUT))
-    assert 11 == result
+    assert 820 == result
 
 ```
 
 </details>
 </br>
+
+
+
+</details>
+
+</br>
+<hr>
+</br>
+
+
+## Day 6
 
 
 
@@ -1243,6 +1203,46 @@ if __name__ == "__main__":
 
 
 
+### test_01.py
+
+<details><summary>Code</summary>
+
+```python
+from solve_01 import parse_input, solve
+
+TEST_INPUT = (
+    """
+abc
+
+a
+b
+c
+
+ab
+ac
+
+a
+a
+a
+a
+
+b
+"""
+).split("\n")
+
+
+def test_solution():
+    print(TEST_INPUT)
+    result = solve(parse_input(TEST_INPUT))
+    assert 11 == result
+
+```
+
+</details>
+</br>
+
+
+
 ### test_02.py
 
 <details><summary>Code</summary>
@@ -1289,38 +1289,6 @@ def test_solution():
 
 
 ## Day 7
-
-
-
-### test_01.py
-
-<details><summary>Code</summary>
-
-```python
-from solve_01 import parse_input, solve
-
-TEST_INPUT = (
-    """light red bags contain 1 bright white bag, 2 muted yellow bags.
-dark orange bags contain 3 bright white bags, 4 muted yellow bags.
-bright white bags contain 1 shiny gold bag.
-muted yellow bags contain 2 shiny gold bags, 9 faded blue bags.
-shiny gold bags contain 1 dark olive bag, 2 vibrant plum bags.
-dark olive bags contain 3 faded blue bags, 4 dotted black bags.
-vibrant plum bags contain 5 faded blue bags, 6 dotted black bags.
-faded blue bags contain no other bags.
-dotted black bags contain no other bags."""
-).split("\n")
-
-
-def test_solution():
-    print(TEST_INPUT)
-    result = solve(parse_input(TEST_INPUT))
-    assert 4 == result
-
-```
-
-</details>
-</br>
 
 
 
@@ -1484,6 +1452,38 @@ if __name__ == "__main__":
 
 
 
+### test_01.py
+
+<details><summary>Code</summary>
+
+```python
+from solve_01 import parse_input, solve
+
+TEST_INPUT = (
+    """light red bags contain 1 bright white bag, 2 muted yellow bags.
+dark orange bags contain 3 bright white bags, 4 muted yellow bags.
+bright white bags contain 1 shiny gold bag.
+muted yellow bags contain 2 shiny gold bags, 9 faded blue bags.
+shiny gold bags contain 1 dark olive bag, 2 vibrant plum bags.
+dark olive bags contain 3 faded blue bags, 4 dotted black bags.
+vibrant plum bags contain 5 faded blue bags, 6 dotted black bags.
+faded blue bags contain no other bags.
+dotted black bags contain no other bags."""
+).split("\n")
+
+
+def test_solution():
+    print(TEST_INPUT)
+    result = solve(parse_input(TEST_INPUT))
+    assert 4 == result
+
+```
+
+</details>
+</br>
+
+
+
 ### test_02.py
 
 <details><summary>Code</summary>
@@ -1622,40 +1622,6 @@ class Operator:
 
 
 
-### test_01.py
-
-<details><summary>Code</summary>
-
-```python
-from solve_01 import parse_input, solve
-
-TEST_INPUT = (
-    """nop +0
-acc +1
-jmp +4
-acc +3
-jmp -3
-acc -99
-acc +1
-jmp -4
-acc +6"""
-).split("\n")
-
-
-def test_solution():
-    instructions = parse_input(TEST_INPUT)
-    print(instructions)
-
-    result = solve(parse_input(TEST_INPUT))
-    assert 5 == result
-
-```
-
-</details>
-</br>
-
-
-
 ### solve_01.py
 
 <details><summary>Code</summary>
@@ -1778,6 +1744,40 @@ def cli(input_filename, debug):
 
 if __name__ == "__main__":
     cli()
+
+```
+
+</details>
+</br>
+
+
+
+### test_01.py
+
+<details><summary>Code</summary>
+
+```python
+from solve_01 import parse_input, solve
+
+TEST_INPUT = (
+    """nop +0
+acc +1
+jmp +4
+acc +3
+jmp -3
+acc -99
+acc +1
+jmp -4
+acc +6"""
+).split("\n")
+
+
+def test_solution():
+    instructions = parse_input(TEST_INPUT)
+    print(instructions)
+
+    result = solve(parse_input(TEST_INPUT))
+    assert 5 == result
 
 ```
 
