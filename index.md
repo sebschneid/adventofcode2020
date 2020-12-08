@@ -4,10 +4,7 @@
 
 ## Day 1
 
-<details>
-<summary>
-View
-</summary>
+<details><summary>View</summary>
 
 
 </details>
@@ -15,19 +12,13 @@ View
 
 ## Day 2
 
-<details>
-<summary>
-View
-</summary>
+<details><summary>View</summary>
 
 
 
 ### Part 1
 
-<details>
-<summary>
-Code
-</summary>
+<details><summary>Code</summary>
 
 ```python
 import itertools
@@ -106,10 +97,7 @@ if __name__ == "__main__":
 
 ### Part 2
 
-<details>
-<summary>
-Code
-</summary>
+<details><summary>Code</summary>
 
 ```python
 import itertools
@@ -193,19 +181,13 @@ if __name__ == "__main__":
 
 ## Day 3
 
-<details>
-<summary>
-View
-</summary>
+<details><summary>View</summary>
 
 
 
 ### Part 1
 
-<details>
-<summary>
-Code
-</summary>
+<details><summary>Code</summary>
 
 ```python
 import math
@@ -287,10 +269,7 @@ if __name__ == "__main__":
 
 ### Part 2
 
-<details>
-<summary>
-Code
-</summary>
+<details><summary>Code</summary>
 
 ```python
 import math
@@ -391,19 +370,13 @@ if __name__ == "__main__":
 
 ## Day 4
 
-<details>
-<summary>
-View
-</summary>
+<details><summary>View</summary>
 
 
 
 ### Part 1
 
-<details>
-<summary>
-Code
-</summary>
+<details><summary>Code</summary>
 
 ```python
 import logging
@@ -482,10 +455,7 @@ if __name__ == "__main__":
 
 ### Part 2
 
-<details>
-<summary>
-Code
-</summary>
+<details><summary>Code</summary>
 
 ```python
 import logging
@@ -591,19 +561,13 @@ if __name__ == "__main__":
 
 ## Day 5
 
-<details>
-<summary>
-View
-</summary>
+<details><summary>View</summary>
 
 
 
 ### Part 1
 
-<details>
-<summary>
-Code
-</summary>
+<details><summary>Code</summary>
 
 ```python
 import logging
@@ -680,10 +644,7 @@ if __name__ == "__main__":
 
 ### Part 2
 
-<details>
-<summary>
-Code
-</summary>
+<details><summary>Code</summary>
 
 ```python
 import logging
