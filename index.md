@@ -1,16 +1,12 @@
 # Advent of Code 2020
 
-# Day 1
-
-## Solutions
+## Day 1
 
 
-# Day 2
 
-## Solutions
+## Day 2
 
 ### Part 1
-
 <details><summary>Code</summary>
 {% highlight python %}
 import itertools
@@ -85,9 +81,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 </details>
 
-
 ### Part 2
-
 <details><summary>Code</summary>
 {% highlight python %}
 import itertools
@@ -167,12 +161,9 @@ if __name__ == "__main__":
 
 
 
-# Day 3
-
-## Solutions
+## Day 3
 
 ### Part 1
-
 <details><summary>Code</summary>
 {% highlight python %}
 import math
@@ -250,9 +241,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 </details>
 
-
 ### Part 2
-
 <details><summary>Code</summary>
 {% highlight python %}
 import math
@@ -349,12 +338,9 @@ if __name__ == "__main__":
 
 
 
-# Day 4
-
-## Solutions
+## Day 4
 
 ### Part 1
-
 <details><summary>Code</summary>
 {% highlight python %}
 import logging
@@ -429,9 +415,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 </details>
 
-
 ### Part 2
-
 <details><summary>Code</summary>
 {% highlight python %}
 import logging
@@ -533,12 +517,9 @@ if __name__ == "__main__":
 
 
 
-# Day 5
-
-## Solutions
+## Day 5
 
 ### Part 1
-
 <details><summary>Code</summary>
 {% highlight python %}
 import logging
@@ -611,9 +592,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 </details>
 
-
 ### Part 2
-
 <details><summary>Code</summary>
 {% highlight python %}
 import logging
