@@ -4,8 +4,6 @@
 
 ## Day {{day}}
 
-<details><summary>View</summary>
-
 <% for part, content in day_contents.items() %>
 
 ### {{part}}
@@ -17,7 +15,10 @@
 ```
 
 </details>
+</br>
+
 <% endfor %>
+
 </details>
 
 </br>

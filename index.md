@@ -4,7 +4,6 @@
 
 ## Day 1
 
-<details><summary>View</summary>
 
 
 </details>
@@ -15,8 +14,6 @@
 
 
 ## Day 2
-
-<details><summary>View</summary>
 
 
 
@@ -97,6 +94,8 @@ if __name__ == "__main__":
 ```
 
 </details>
+</br>
+
 
 
 ### Part 2
@@ -179,6 +178,9 @@ if __name__ == "__main__":
 ```
 
 </details>
+</br>
+
+
 
 </details>
 
@@ -188,8 +190,6 @@ if __name__ == "__main__":
 
 
 ## Day 3
-
-<details><summary>View</summary>
 
 
 
@@ -273,6 +273,8 @@ if __name__ == "__main__":
 ```
 
 </details>
+</br>
+
 
 
 ### Part 2
@@ -372,6 +374,9 @@ if __name__ == "__main__":
 ```
 
 </details>
+</br>
+
+
 
 </details>
 
@@ -381,8 +386,6 @@ if __name__ == "__main__":
 
 
 ## Day 4
-
-<details><summary>View</summary>
 
 
 
@@ -463,6 +466,8 @@ if __name__ == "__main__":
 ```
 
 </details>
+</br>
+
 
 
 ### Part 2
@@ -567,6 +572,9 @@ if __name__ == "__main__":
 ```
 
 </details>
+</br>
+
+
 
 </details>
 
@@ -576,8 +584,6 @@ if __name__ == "__main__":
 
 
 ## Day 5
-
-<details><summary>View</summary>
 
 
 
@@ -656,6 +662,8 @@ if __name__ == "__main__":
 ```
 
 </details>
+</br>
+
 
 
 ### Part 2
@@ -733,6 +741,9 @@ if __name__ == "__main__":
 ```
 
 </details>
+</br>
+
+
 
 </details>
 
